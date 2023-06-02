@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">VKRPracticalPartWorker</string>
+    <string name="menu_text">Меню</string>
+    <string name="button_salads_text">Салаты</string>
+    <string name="button_soups_text">Супы</string>
+    <string name="button_hot_dishes_text">Горячие блюда</string>
+    <string name="button_second_dish_text">Гарниры</string>
+    <string name="button_drinks">Напитки</string>
+    <string name="button_desserts_text">Десерты</string>
+    <string name="favorite_text">Избранное</string>
+    <string name="basket_text">Корзина</string>
+
+    <string name="order_text">Заказы</string>
+    <string name="dishes_adding_text">Добавление товара</string>
+    <string name="dishes_adding_button_text">Добавить</string>
+
+    <string name="dish_name_text">Название</string>
+    <string name="dish_category_text">Категория</string>
+    <string name="dish_composition_text">Состав</string>
+    <string name="dish_price_text">Цена</string>
+    <string name="add_picture_text">Добавить \nкартинку</string>
+    <string name="order_number_text">Заказ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

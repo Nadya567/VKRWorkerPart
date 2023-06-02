@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".OrderFragment"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/order_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_number_text"
+
+            android:textSize="25sp"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/order_number_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+
+            android:textSize="25sp"
+
+
+            app:layout_constraintStart_toEndOf="@+id/order_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button_order_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/close"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--<TextView
+            android:id="@+id/order_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рыба жареная"
+            android:layout_marginTop="30dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/order_text"/>
+
+        <TextView
+            android:id="@+id/order_price_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150 руб"
+
+
+            app:layout_constraintStart_toEndOf="@+id/order_text_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/order_text_1"/>-->
+
+        <LinearLayout
+            android:id="@+id/order_name_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order_text"
+            >
+
+            <TextView
+                android:id="@+id/order_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Овощной салат"
+
+
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@+id/order_text"/>
+
+
+
+            <TextView
+                android:id="@+id/order_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Борщ"
+
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@+id/order_name_list"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/order_price_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/order_name_list"
+            app:layout_constraintStart_toEndOf="@+id/order_name_list"
+            app:layout_constraintBottom_toBottomOf="@+id/order_name_list"
+            >
+
+            <TextView
+                android:id="@+id/order_price_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="190"
+
+
+                app:layout_constraintStart_toEndOf="@+id/order_text_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/order_text_1"/>
+            <TextView
+                android:id="@+id/order_price_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+
+
+                app:layout_constraintStart_toEndOf="@+id/order_text_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/order_text_2"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/order_price_text"/>
+
+        <TextView
+            android:id="@+id/order_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Всего"
+            android:layout_marginTop="30dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/order_name_list"/>
+
+        <TextView
+            android:id="@+id/order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="290"
+
+
+            app:layout_constraintStart_toEndOf="@+id/order_price_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/order_price_text"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
