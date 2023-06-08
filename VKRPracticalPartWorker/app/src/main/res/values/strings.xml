@@ -22,4 +22,14 @@
     <string name="order_number_text">Заказ</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">072aeYfQ2kATjPG0WfRXzm2l5zNFzI1AQhDjOHXg</string>
+    <string name="back4app_client_key">s27xoxTm2eSFQWGN8wGmRxs1RtNuLgtwY91oLkcX</string>
 </resources>

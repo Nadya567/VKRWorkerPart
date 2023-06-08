@@ -55,9 +55,9 @@ public class OrderFragment extends Fragment {
             }
         });
 
-        fillingOrderNameLayout("Морс");
-        fillingOrderPriceLayout("70");
-        getSumOrderPrice(360);
+        //fillingOrderNameLayout("Морс");
+        //fillingOrderPriceLayout("70");
+        //getSumOrderPrice(360);
     }
 
     private void fragmentCLose()

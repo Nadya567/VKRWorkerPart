@@ -8,4 +8,178 @@
         <item>Напитки</item>
         <item>Десерты</item>
     </string-array>
+
+
+
+    <string-array name="SaladsName">
+        <item>Цезарь</item>
+        <item>Винегрет</item>
+        <item>Овощной салат</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="SaladsImages">
+        <item>@drawable/cesar</item>
+        <item>@drawable/vinegret</item>
+        <item>@drawable/ovoshnoy</item>
+        <item>@drawable/grechesky</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="SaladsPrices">
+        <item>150 руб</item>
+        <item>180 руб</item>
+        <item>190 руб</item>
+        <item>200 руб</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    ////////////////////////////////////////////
+
+    <string-array name="SoupsName">
+        <item>Грибной суп</item>
+        <item>Щи</item>
+        <item>Борщ</item>
+        <item>Борщ</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="SoupsImages">
+        <item>@drawable/gribnoy</item>
+        <item>@drawable/shi</item>
+        <item>@drawable/borsch</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="SoupsPrices">
+        <item>150 руб</item>
+        <item>80 руб</item>
+        <item>100 руб</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    ////////////////////////////////////////////
+
+    <string-array name="HotDishesName">
+        <item>Котлета</item>
+        <item>Гуляш</item>
+        <item>Рыба жареная</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="HotDishesImages">
+        <item>@drawable/kotleta</item>
+        <item>@drawable/gulyash</item>
+        <item>@drawable/zharenaya_ryba</item>
+        <item>@drawable/zharenaya_kuriza</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="HotDishesPrices">
+        <item>130 руб</item>
+        <item>100 руб</item>
+        <item>150 руб</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    ////////////////////////////////////////////
+
+    <string-array name="SecondDishesName">
+        <item>Цезарь</item>
+        <item>Винегрет</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="SecondDishesImages">
+        <item>@drawable/vinegret</item>
+        <item>@drawable/cesar</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="SecondDishesPrices">
+        <item>150 руб</item>
+        <item>180 руб</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    ////////////////////////////////////////////
+
+    <string-array name="DrinksName">
+        <item>Цезарь</item>
+        <item>Винегрет</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="DrinksImages">
+        <item>@drawable/vinegret</item>
+        <item>@drawable/cesar</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="DrinksPrices">
+        <item>150 руб</item>
+        <item>180 руб</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    ////////////////////////////////////////////
+
+    <string-array name="DessertsName">
+        <item>Цезарь</item>
+        <item>Винегрет</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="DessertsImages">
+        <item>@drawable/vinegret</item>
+        <item>@drawable/cesar</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
+
+    <string-array name="DessertsPrices">
+        <item>150 руб</item>
+        <item>180 руб</item>
+        <item>Овощной</item>
+        <item>Греческий</item>
+        <item>Оливье</item>
+        <item>Селедка под шубой</item>
+    </string-array>
 </resources>

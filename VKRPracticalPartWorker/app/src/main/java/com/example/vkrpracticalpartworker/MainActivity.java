@@ -12,6 +12,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button goToDishAddingButton;
+    Button goToMenuButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     private void ButtonInitialization()
     {
         goToDishAddingButton = findViewById(R.id.button_adding_dishes);
+        goToMenuButton = findViewById(R.id.button_menu);
 
         goToDishAddingButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +51,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, DishAddingActivity.class);
                 startActivity(intent);
                 overridePendingTransition(0, 0);
+            }
+        });
+
+        goToMenuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MenuActivity.class);
+                startActivity(intent);
+                overridePendingTransition(0,0);
             }
         });
 
