@@ -81,7 +81,7 @@ public class MenuItemFragment extends Fragment {
         deleteItemButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                fragmentCLose1();
+                fragmentCLose();
             }
         });
 
@@ -148,6 +148,7 @@ public class MenuItemFragment extends Fragment {
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Menu");
         query.orderByDescending("createdAt");
 
+
         query.findInBackground((objects, e) -> {
             if(e == null)
             {
@@ -157,8 +158,9 @@ public class MenuItemFragment extends Fragment {
                 {
                     if(objects.get(i).getString("DishName").equals(dishName) )
                     {
-                        productId = objects.get(i).getString("objectId");
-                        Log.d("!!!!!&", productId);
+                        productId = objects.get(i).getObjectId();
+
+                        //Log.d("!!!", productId);
 
                         query.getInBackground(productId, new GetCallback<ParseObject>() {
                         public void done(ParseObject object, ParseException e) {
@@ -168,7 +170,7 @@ public class MenuItemFragment extends Fragment {
 
                             else
                             {
-                                Log.d("!!!!!&", "productId");
+                                Log.d("!", "productId");
                             }
                         }
                     });

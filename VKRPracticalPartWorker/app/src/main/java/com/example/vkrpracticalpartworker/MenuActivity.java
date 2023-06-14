@@ -56,13 +56,7 @@ public class MenuActivity extends AppCompatActivity {
                 Log.d("!!!!&", "!!!");
             }
         });
-
-
-
-
     }
-
-
 
     private void ButtonInitialization()
     {
